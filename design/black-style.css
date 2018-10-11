@@ -1,0 +1,218 @@
+/*===================================================*/
+/*                            Design créé par DBMwebdesign.fr                         */
+/*===================================================*/ 
+
+CSS-Code:@charset "utf-8"; 
+/* CSS Document */ /*reset*/ 
+* {margin:0; padding:0; border:0;} 
+.module-wrap .clear, .connect .clear, .messagerie-wrap .clear, .module-aide .clear, .member-list-wrap .clear, .active-wrap .clear, .profil-wrap .clear, .modif-pass-wrap .clear, .avatar-wrap .clear, .fiche-profil-wrap .clear, .install-wrap .clear {width:100%; display:block; overflow:hidden; margin:15px 0 5px 0;} 
+
+/*lien*/
+a { color:#d1d4d4; text-decoration:none; } 
+a:hover { color:#1ba7a9; text-decoration:underline; } 
+
+/*Page*/
+ body { background:#333; font-family:"Calibri", Arial; color:#d1d4d4;} 
+
+/*conteneur general*/ 
+.module-wrap { background:url(img/bg.gif); margin:100px auto 0 auto; padding:20px 30px 20px 20px; width:800px; border-radius:15px; overflow:hidden; font-size: 16px; } 
+
+/*Base - conteneur suivant demo aide*/ 
+.exemple-wrap { background:url(img/bg.gif); margin:10px auto 0 auto; padding:20px 30px 20px 20px; width:800px; border-radius:15px; overflow:hidden; font-size: 16px; text-align:center; } 
+.exemple-wrap .title { font-size: 20px; text-transform:uppercase; } 
+
+/*titres*/ 
+h2 { font: bold 30px;} 
+h3 {  font: bold 14px;} 
+h4 {  text-align:left; font-size: 16px; text-transform:uppercase; margin: 15px 0 5px 0;} 
+.blue { color:#1ba7a9;} 
+.error-info { color:#b92626; width:100%; display:block; overflow:hidden; margin:10px 0 10px 0; text-align:center;} 
+
+/*formulaire*/ 
+.label { float: left; display:inline; width:150px; text-align: right; padding: 3px 10px 5px 3px; } 
+.input-box {float: left; display:inline; } 
+.input { width: 205px; padding: 5px 4px 5px 8px; border: 1px solid #d1d4d4; border-radius: 4px; background-color:#333; color:#d1d4d4;} 
+
+/*boutons*/ 
+.button { width: auto; padding: 5px 15px 5px 15px; background-color:#333; border: 1px solid #d1d4d4; border-radius: 4px; cursor:pointer; margin: 15px 0 0 263px; color:#d1d4d4;} 
+.button:hover { background:url(img/bg_menu-act.gif); background-position:center center; background-repeat:repeat-x; } 
+
+/*colonne*/ 
+.col1 { float:left; width:40px; border: 1px solid #000000; border-radius: 4px; padding: 5px 0 5px 0; margin: 0 5px 0 5px; background-color:#333; } 
+.col2 { float:left; width:210px; border: 1px solid #000000; border-radius: 4px; padding: 5px 10px 5px 10px; margin: 0 5px 0 5px; background-color:#333; } 
+.col3 { float:left; width:140px; border: 1px solid #000000; border-radius: 4px; padding: 5px 10px 5px 10px; margin: 0 5px 0 5px; background-color:#333; } 
+.col4 { float:left; width:300px; border: 1px solid #000000; border-radius: 4px; padding: 5px 10px 5px 10px; margin: 0 5px 0 5px; background-color:#333; } 
+.col5 { float:left; width:40px; padding:0; margin: 0 5px 0 5px; } 
+
+/*affichage des liste*/ 
+.list { text-align:center; width:100%; display:block; overflow:hidden; } 
+.list .col1 { margin: 0 6px 0 6px; border: none!important; border-radius: none!important; background:none!important; } 
+.list .col2 { margin: 0 6px 0 6px; border: none!important; border-radius: none!important; background:none!important; } 
+.list .col3 { margin: 0 6px 0 6px; border: none!important; border-radius: none!important; background:none!important; } 
+.list .col4 { margin: 0 6px 0 6px; border: none!important; border-radius: none!important; background:none!important; } 
+.list .col5 { margin: 0 6px 0 6px; } 
+.list .statut-switch { width:auto; margin:0 3px 0 3px; padding: 3px 6px 3px 6px; text-align:center; border: 1px solid #d1d4d4; border-radius: 4px; background-color:#333;  cursor:pointer; } 
+.list .statut-switch:hover { background:url(img/bg_menu-act.gif); background-position:center center; background-repeat:repeat-x; } 
+
+/*############## règles du conteneur de connexion .connect ###################*/ 
+.connect { background:url(img/bg.gif); margin:100px auto 0 auto; padding:20px 30px 20px 30px; width:430px; border-radius:15px; overflow:hidden; font-size: 16px; } 
+.connect p { margin: 10px 0 30px 0; }
+.connect a { float: left; display:block; width:200px; text-align: right; text-decoration:none; padding: 3px 10px 5px 3px; } 
+.connect a:hover { color:#1ba7a9; text-decoration:underline; } 
+.connect a.new { float: left; display:block; width:200px; font-size: 18px; text-align: left; text-decoration:none; text-transform:uppercase; padding: 3px 10px 5px 3px; } 
+.connect a.new:hover { color:#1ba7a9; text-decoration:underline; } 
+
+/*############## règles de redirection ###################*/ 
+.redirect { width:300px; margin: 200px auto 0 auto; text-align: center; } 
+
+/*############## règles entete interface  ###################*/
+ .module-wrap .col1 { width:200px; float:left; border: none!important; border-radius: none!important; background:none!important; } 
+ .module-wrap .admin-logo { width:200px; height:160px; background:url(img/admin-icon.png); } 
+ .module-wrap .modo-logo { width:200px; height:160px; float:left; background:url(img/modo-icon.png); } 
+ .module-wrap .membre-logo { width:200px; height:160px; float:left; background:url(img/membre-icon.png); } 
+ .module-wrap .admin-panel { width:590px; float:left; } 
+ .module-wrap .label { float: left; display:inline; width:150px; text-align: left; padding: 3px 10px 5px 20px; } 
+ .module-wrap .design-switch { width: 120px; padding: 5px 0 5px 0; margin:0 3px 0 3px; text-align:center; border: 1px solid #d1d4d4; border-radius: 4px; background-color:#333; cursor:pointer; color:#d1d4d4;} 
+ .module-wrap .design-switch:hover { background:url(img/bg_menu-act.gif); background-position:center center; background-repeat:repeat-x; } 
+ .module-wrap .info { width:400px; float:left; margin: 15px 0 0 0; padding: 0 0 0 20px; } 
+ .module-wrap .action { width:150px; float:left; margin: 15px 0 15px 0; padding: 15px 0 0 0; } 
+ .module-wrap .action a { height:30px; background-color:#333; text-align:center; line-height:26px; color:#d1d4d4; text-decoration:none; border: 1px solid #d1d4d4; border-radius: 4px; display:block; margin: 0 5px 3px 5px; } 
+ .module-wrap .action a:hover { background:url(img/bg_menu-act.gif); background-position:center center; background-repeat:repeat-x; }
+  .module-wrap .link5 a { text-decoration:none; } 
+  .module-wrap .link5 a:hover { color:#1ba7a9; text-decoration:underline; } 
+  
+ /*############## règles interface messagerie - accueil ###################*/
+ .messagerie-wrap { background:url(img/bg.gif); margin:10px auto 0 auto; padding:20px 30px 20px 20px; width:800px; border-radius:15px; overflow:hidden; font-size: 16px; text-align:center; } 
+ .messagerie-wrap .title {  font-size: 20px; text-transform:uppercase; } 
+ .messagerie-wrap .title2 {  font-size: 20px; text-transform:uppercase; margin:40px 0 10px 0; } 
+ .messagerie-wrap a { height:30px; background-color:#333; text-align:center; line-height:26px;  text-decoration:none; border: 1px solid #d1d4d4; border-radius: 4px; display:inline-block; margin:0 20px 0 20px; padding: 0 7px 0 7px; color:#d1d4d4; } 
+ .messagerie-wrap a:hover { background:url(img/bg_menu-act.gif); background-position:center center; background-repeat:repeat-x; } 
+ .messagerie-wrap .col3 a { height:auto; background:none; line-height:20px;  text-decoration:none; border: none; }
+  .messagerie-wrap .col3 a:hover { color:#1ba7a9; } 
+  .messagerie-wrap .col4 a { height:auto; background:none;  line-height:20px; text-decoration:none; border: none; } 
+  .messagerie-wrap .col4 a:hover { color:#1ba7a9; } 
+  .messagerie-wrap .new-mess { float:left; display:inline-block; width:180px; height:30px; text-align:left; line-height:30px; background-image:url(img/email-new.png); background-repeat:no-repeat; padding: 5px 0 0 40px; margin: 0 0 0 210px; } 
+  .messagerie-wrap .arch-mess { float:left; display:inline-block; width:180px; height:30px; text-align:left; line-height:30px; background-image:url(img/email-open.png); background-repeat:no-repeat; padding: 5px 0 0 40px; } 
+  
+ /*############## règles interface messagerie - envoyer un message (reprend des base de interface messagerie - accueil) ###################*/
+ .messagerie-wrap .label { display:inline; width:200px; text-align: left; padding: 2px 10px 5px 3px; } 
+ .messagerie-wrap .input { width: 250px; padding: 5px 4px 5px 8px; border: 1px solid #d1d4d4; border-radius: 4px; background-color:#333;  } 
+ .messagerie-wrap .message { width: 500px; height:130px; padding: 5px 4px 5px 8px; margin: 5px 0 0 0; border: 1px solid #d1d4d4; border-radius: 4px; background-color:#333; font-size: 16px; line-height:20px; } 
+ .messagerie-wrap .smiley { float:left; display:inline; width: 500px; height:auto; margin: 5px 0 0 0; text-align:left; } 
+ .messagerie-wrap .smiley a { background:none; margin:2px; padding:2px; } 
+ .messagerie-wrap .smiley a:hover { background:#1ba7a9; margin:2px; padding:2px; } 
+ .messagerie-wrap .button { margin: 0 0 0 492px; } 
+ 
+ /*############## règles interface message envoyés  (reprend des base de interface messagerie - accueil) ###################*/ 
+ .messagerie-wrap .new-mess-alt { float:left; display:inline-block; width:180px; height:30px; text-align:left; line-height:30px; background-image:url(img/email-new.png); background-repeat:no-repeat; padding: 5px 0 0 40px; margin: 0 0 0 80px; } 
+ .messagerie-wrap .suppr-mess { float:left; display:inline-block; width:180px; height:30px; text-align:left; line-height:30px; background-image: url(img/false.png); background-repeat:no-repeat; padding: 5px 0 0 40px; background-position: 0 5px; } 
+ 
+ /*############## règles interface lecture des messages(reprend des base de interface messagerie - accueil) ###################*/ 
+ .exp-pseudo { color:#1ba7a9; } 
+ .mess-info { width: 250px; padding: 5px 4px 5px 8px; border: 1px solid #d1d4d4; border-radius: 4px; background-color:#333;  text-align:left; } 
+ .mess-txt { width: 450px; min-height:100px; padding: 5px 4px 5px 8px; border: 1px solid #d1d4d4; border-radius: 4px; background-color:#333; text-align:left; } 
+ .mess-info-recept { width: 250px; background-color:none; text-align:left; } 
+ .mess-txt-recept { width: 450px; min-height:auto; background-color:none;  text-align:left; } 
+ .messagerie-wrap .mess-action { width: 120px; padding: 5px 0 5px 0; margin:0 3px 0 3px; text-align:center; border: 1px solid #d1d4d4; border-radius: 4px; background-color:#333;  cursor:pointer; } 
+ .messagerie-wrap .mess-action:hover { background:url(img/bg_menu-act.gif); background-position:center center; background-repeat:repeat-x; } 
+ .messagerie-wrap .place { margin-right:120px; text-align:right; } 
+ 
+ /*############## règles interface Aide  ###################*/ 
+ .module-aide { background:url(img/bg.gif); margin:10px auto 0 auto; padding:20px 30px 20px 20px; width:800px; border-radius:15px; overflow:hidden; font-size: 16px; color:#ebebeb; text-align:center; } 
+ .module-aide .title { font-size: 20px; text-transform:uppercase; text-align:center; } 
+ .module-aide .title-p {  font-size: 18px; text-transform:uppercase; text-align:center; margin:20px 0 10px 0; } 
+ .module-aide .title-p a { visibility:hidden; } 
+ .module-aide a { height:30px; background-color:#333; text-align:center; line-height:26px; text-decoration:none; border: 1px solid #d1d4d4; border-radius: 4px; display:inline-block; margin:0 10px 0 10px; padding: 0 7px 0 7px; color:#d1d4d4; } 
+ .module-aide a:hover { background:url(img/bg_menu-act.gif); background-position:center center; background-repeat:repeat-x; } 
+ .module-aide p > a.link1 { height:0; background:none; border:none; text-align:left; color:#fff; text-decoration:underline; border-radius:0; margin:0; padding: 0 7px 0 7px; } 
+ .module-aide p > a.link1:hover { color:#1ba7a9; } 
+ .module-aide p { text-align:left; margin:0 0 10px 0; } 
+ .code { border-color: #d1d4d4; border-style:solid; border-width: 2px; border-radius: 4px; background-color: #EFEFEF; font-family:"Lucida Console", Monaco, monospace; font-size:12px; line-height:15px; color: #000000; text-align:left; padding: 5px 15px 5px 15px; margin:0 0 10px 0; } 
+ 
+ /*############## règles interface liste membre ###################*/ 
+ .member-list-wrap { background:url(img/bg.gif); margin:10px auto 0 auto; padding:20px 30px 20px 20px; width:800px; border-radius:15px; overflow:hidden; font-size: 16px;  text-align:center; } 
+ .member-list-wrap .info-bann { height:100px; width:600px; background-color:#333; text-align:left;  line-height:20px; border: 1px solid #d1d4d4; border-radius: 4px; margin:15px auto; padding: 6px 8px 6px 8px; }
+  .member-list-wrap .button { margin:0; } 
+ .member-list-wrap .title {  font-size: 20px; text-transform:uppercase; } 
+ .member-list-wrap .col1 { float:left; width:40px; border: none!important; border-radius: 4px; padding: 5px 0 5px 0; margin: 0 6px 0 6px; background:none!important; }
+ 
+ /*############## règles interface mode activation des membres  ###################*/
+ .active-wrap { background:url(img/bg.gif); margin:10px auto 0 auto; padding:20px 30px 20px 20px; width:800px; border-radius:15px; overflow:hidden; font-size:16px; color:#ebebeb; text-align:center; } 
+ .active-wrap .title { color: #ebebeb; font-size: 20px; text-transform:uppercase; margin: 0 0 40px 0; } 
+ .active-wrap .label { display:inline; width:300px; text-align: left; padding: 5px 10px 5px 3px; } 
+ .active-wrap select { width:300px; text-align: left; padding: 5px 3px 5px 3px; } 
+ .active-wrap .button { margin:0 0 0 580px; } 
+ 
+ /*############## règles interface profil  ###################*/ 
+ .profil-wrap { background:url(img/bg.gif); margin:10px auto 0 auto; padding:20px 30px 20px 20px; width:800px; border-radius:15px; overflow:hidden; font-size: 16px;  text-align:center; }
+ .profil-wrap .title {  font-size: 20px; text-transform:uppercase; margin: 0 0 40px 0; } .profil-wrap .col1 { width:120px; margin: 0 20px 0 20px; border: none!important; border-radius: none!important; background:none!important; } 
+ .profil-wrap .col2 { width:600px; text-align:left; margin: 0 6px 0 6px; padding: 10px 0 0 0; border: none!important; border-radius: none!important; background:none!important; } 
+ .profil-wrap .label { width:200px; margin: 0 6px 0 6px; padding: 1px 10px 0 0; font-size:18px; } 
+ .profil-wrap .label2 { display:inline; margin: 0 6px 0 6px; padding: 1px 10px 0 0; font-size:18px; } 
+ .profil-wrap .label3 { width:200px; text-align:right; margin: 0 6px 10px 6px; padding: 1px 10px 0 0; font-size:18px; } 
+ .profil-wrap .input { width: 205px; padding: 6px 4px 6px 8px; border: 1px solid #d1d4d4; border-radius: 4px; background-color:#333; } 
+ .profil-wrap .active-mail { width: 100px; padding: 6px 4px 6px 8px; margin:0 0 0 16px; border: 1px solid #d1d4d4; border-radius: 4px; background-color:#333; color:#d1d4d4; } 
+ .profil-wrap .radio-box { display:inline; width: 90px; padding: 6px;} 
+ .profil-wrap .list { margin: 12px 0 0 0; text-align:left; } 
+ .profil-wrap .profil-mask { width: 120px; padding: 5px 0 5px 0; margin:0 0 0 30px; text-align:center; border: 1px solid #d1d4d4; border-radius: 4px; background-color:#333; cursor:pointer; color:#d1d4d4;} 
+ .profil-wrap .profil-mask:hover { background:url(img/bg_menu-act.gif); background-position:center center; background-repeat:repeat-x; } 
+ .profil-wrap a { height:30px; width:200px; display:block; background-color:#333; text-align:center; line-height:26px; text-decoration:none; border: 1px solid #d1d4d4; border-radius: 4px; margin: 0px 0px 0px 222px; padding: 0px 8px; color:#d1d4d4;} 
+ .profil-wrap a:hover { background:url(img/bg_menu-act.gif); background-position:center center; background-repeat:repeat-x; } 
+ .profil-wrap .col1 a { height:30px; width:118px; display:block; background-color:#333; text-align:center; font-size:14px; line-height:30px; text-decoration:none; border: 1px solid #d1d4d4; border-radius: 4px; margin: 0; padding: 0; } 
+ .profil-wrap .descript { height:100px; width:504px; background-color:#333; text-align:left; line-height:20px; border: 1px solid #d1d4d4; border-radius: 4px; margin: 0 0 0 70px; padding: 6px 8px 6px 8px; color:#d1d4d4;} 
+ .profil-wrap .maj-confirm { height:30px; width:200px; background-color:#333; text-align:center; font-size: 14px; text-decoration:none; border: 1px solid #d1d4d4; border-radius: 4px; margin: 0px 0px 0px 222px; padding: 1px 8px 5px 8px; color:#d1d4d4;} 
+ .profil-wrap .maj-confirm:hover { background:url(img/bg_menu-act.gif); background-position:center center; background-repeat:repeat-x; } 
+ 
+ /*############## règles interface changer mot de passe admin ###################*/
+ .modif-pass-wrap { background:url(img/bg.gif); margin:10px auto 0 auto; padding:20px 30px 20px 20px; width:800px; border-radius:15px; overflow:hidden; font-size: 16px;  } 
+ .modif-pass-wrap .title { font-size: 20px; text-transform:uppercase; text-align:center; margin: 0 0 40px 0; } 
+ .modif-pass-wrap .label { float: left; display:inline; width:300px; text-align: right; padding: 3px 30px 5px 3px; } 
+ .modif-pass-wrap .button { margin: 20px 0 0 550px; } 
+ 
+ /*############## règles interface avatar  ###################*/ 
+ .avatar-wrap { background:url(img/bg.gif); margin:10px auto 0 auto; padding:20px 30px 20px 20px; width:800px; border-radius:15px; overflow:hidden; font-size: 16px;  } 
+ .avatar-wrap .title { font-size: 20px; text-transform:uppercase; text-align:center; margin: 0 0 40px 0; } 
+ .avatar-wrap .clear { width:790px; padding: 0 45px 0 55px; } 
+ .avatar-wrap .input { margin:0 0 0 250px; width:200px; } 
+ .avatar-wrap .input:hover { background:url(img/bg_menu-act.gif); background-position:center center; background-repeat:repeat-x; } 
+ .avatar-wrap .link1 { color: #fff; text-decoration:none; } 
+ .avatar-wrap .link1:hover { color:#1ba7a9; text-decoration:underline; } 
+ .avatar-wrap .avatar-box { width:120px; margin:5px; padding:5px; border-radius:10px; float:left; background:#333; text-align:center; } 
+ 
+ /*############## règles interface fiche-profil ###################*/
+ .fiche-profil-wrap { background:url(img/bg.gif); margin:10px auto 0 auto; padding:20px 30px 20px 20px; width:800px; border-radius:15px; overflow:hidden; font-size: 16px;  } 
+ .fiche-profil-wrap .col1 { width:120px; margin: 0 20px 0 20px; border: none!important; border-radius: none!important; background:none!important; } 
+ .fiche-profil-wrap .col2{ width:600px; text-align:left; margin: 0 6px 0 6px; padding: 10px 0 0 0; border: none!important; border-radius: none!important; background:none!important; } 
+ .fiche-profil-wrap .label { width:160px; margin: 0 6px 0 6px; padding: 1px 10px 0 0; font-size:18px; } 
+ .fiche-profil-wrap .rep { float:left; width:390px; margin: 0 6px 0 6px; padding: 1px 10px 0 0; font-size:18px; text-align:left; } 
+ .fiche-profil-wrap .list { margin: 12px 0 0 0; } 
+ .fiche-profil-wrap .title { font-size: 20px; text-transform:uppercase; text-align:center; } 
+ 
+ /*###########################################################################*/ 
+ /*###########################################################################*/ 
+ /*###########################################################################*/ 
+ 
+ /*################ fichier install ######################*/ 
+ /*base install */ 
+ .install-wrap { background:url(img/bg.gif); margin:100px auto 0 auto; padding:20px 30px 20px 20px; width:800px; border-radius:15px; overflow:hidden; font-size: 16px;  text-align:center; } 
+ .install-wrap .title {  font-size: 20px; text-transform:uppercase; } 
+ .install-wrap .title-admin-active {  font-size: 18px; line-height:36px; } 
+ .install-wrap .button { margin:20px 0; } 
+ .install-wrap .label { float: left; display:inline; width:410px; text-align: right; padding: 3px 30px 5px 3px; } 
+ .install-wrap .form-label { float: left; display:inline; width:310px; text-align: right; padding: 3px 30px 5px 3px; } 
+ .install-wrap .input { float: left; width:300px; } 
+ .install-wrap .list { margin: 12px 0 0 0; } 
+ .install-wrap .right { float:left; background:url(img/right.png); width:38px; height:30px; margin:0 0 0 30px; } 
+ .install-wrap .false { float:left; background:url(img/false.png); width:38px; height:30px; margin:0 0 0 30px; } 
+ 
+ /*################ footer ######################*/ 
+ .footer-info { background:url(img/bg.gif); margin:5px auto 20px auto; padding:5px 25px; width:800px; border-radius:5px; font-size: 12px;  text-align:center; } 
+ .footer-info p {display:inline;}
+ .footer-info a { color:#fff; text-decoration:none; } 
+ .footer-info a:hover { color:#1ba7a9; text-decoration:underline; } 
+ 
+ /*################ recup password ######################*/ 
+ .recup-pass-wrap { background:url(img/bg.gif); margin:100px auto 0 auto; padding:20px 30px 20px 20px; width:800px; border-radius:15px; overflow:hidden; font-size: 16px; } 
+ .recup-pass-wrap .title { font-size: 20px; text-transform:uppercase; text-align:center; margin: 0 0 40px 0; } 
+ .recup-pass-wrap .label { float: left; display:inline; width:300px; text-align: right; padding: 3px 30px 5px 3px; } 
+ .recup-pass-wrap .button { margin: 20px 0 0 550px; }

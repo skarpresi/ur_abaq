@@ -1,0 +1,371 @@
+﻿[class*="span"] {
+ background-color: #F1F5FB;
+ margin-left: auto;
+ border-radius: 2px 2px 2px 2px;
+ 
+ text-align: center;
+}
+
+#entete
+{line-height: 175px;
+text-align: center;
+     color: #08c;
+     font-family: Monotype Corsiva;
+     font-size: 18pt;
+     
+     font-size: larger;
+}
+
+[class="span10"] {
+ background-color: white;
+}
+
+[class="span3"] {
+ background-color: white;
+}
+
+.connexion 
+{
+   background-color:  #DDDDDD  ;
+    width: 500px;
+   text-align:center;
+    height: 300px;
+    border-radius: 20px;
+      
+}
+
+[class*="container-fluid"] {
+ background-color:gray; 
+ margin: auto;
+}
+
+[class*="row-fluid"] {
+margin: 0px;
+ }
+#logo {height:180px;
+    width: 265px}
+    
+/* Styles utiles à la mise en page */
+header {
+   height: 180px;
+
+}
+section {
+   height: 500px;
+   background-color: #FFFFFF;
+   border-radius: 5px 5px 5px 5px;
+   margin-bottom: auto;
+   margin-left: auto;
+
+}
+footer {
+   height: 20px;
+}
+.bloc {
+   height: 150px;
+}
+/* Les styles suivants sont juste pour faire apparaître la mise
+en page */
+.span12 {
+   background-color:#a66019;
+}
+.span6 {
+   background-color:white;
+}
+[class="span3 bloc"] {
+   background-color:white;
+}
+
+article{
+	height: 500px;
+  margin: 0px;
+}
+
+      .forme-signin {
+        
+        padding: 19px 29px 29px;
+        
+        background-color: #fff;
+        border: 1px solid #e5e5e5;
+        -webkit-border-radius: 5px;
+           -moz-border-radius: 5px;
+                border-radius: 5px;
+        -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+           -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+                box-shadow: 0 1px 2px rgba(0,0,0,.05);
+      }
+     
+      .form-signin input[type="text"],
+      .form-signin input[type="password"] {
+        font-size: 16px;
+        
+       
+      }
+      .form-signin button{
+         border: 1px solid #e5e5e5;
+         -webkit-border-radius: 10px;
+         -moz-border-radius: 10px;}
+          
+#logoboot {
+height:250px;
+width: 300px}   
+
+.tabstete {
+ background-color:#ad0021; 
+ margin: auto;
+}   
+
+#tabcontent {
+ background-color:#9eb3de; 
+ margin: auto;
+height:500px;
+} 
+
+#tai{
+    width: 980px;
+    height:75px;
+}
+#ta{
+    width: 980px;
+    height:55px;
+}
+#princip{
+   	
+        
+        border-style: inset;
+	float:none;
+        
+        background-color: windowframe;
+
+    border-radius: 20px;
+
+  
+}
+
+
+.tableau1{
+    background-color:  #DDDDDD  ;
+   
+   text-align:center;
+    
+    border-radius: 20px;
+    
+     
+}
+
+tableau2{
+    background-color:  #DDDDDD  ;
+    width: 500px;
+   text-align:center;
+    height: 250px;
+    border-radius: 20px;
+    
+    
+    
+}
+.bandeau
+{
+    
+        width:990px;
+	height:10px;
+                    margin-bottom: 5px;
+                    margin-top: 10px;
+                    border-style: inset;
+                    border-radius: 20px;
+                    font-family: Time New Roman;
+                     font-size: larger;
+
+}
+
+.menu
+{
+    text-align: left;
+}
+
+.jaune
+{
+	color: yellow;
+}
+
+ .horizontale input{
+     margin-bottom: 5px;
+                    margin-top: 5px;
+
+}
+
+.vert
+{
+	color:green;
+}
+
+
+.an{
+    width:180px;
+    height:98%;
+    float: left;
+    border-radius: 8px;
+    
+    border-style: inset;
+  
+    }
+    
+    #tabe
+    {
+     background-color: #EFEFEF;
+     color: black;
+     width: 100%;
+      
+    }
+     #tdh
+    {
+     // background-color: gray;
+      text-align: center;
+      
+    }
+    #tde
+    {
+      //background-color: #00AAFF ;
+      text-align: center;
+      
+    }
+    
+.red
+{
+	color: red;
+}
+
+div#banniere
+{
+	width:980px;
+	height:135px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 4px black;
+	background-color:beige;
+
+}
+
+div#banniere1
+{
+	width:980px;
+	height:25px;
+        border-radius: 6px;
+        box-shadow: 2px 2px 4px black;
+	background-color:white;
+
+}
+
+div#corp
+{
+	width:980px;
+	//height:90%;
+
+
+}
+div#contenu
+{
+	width:205px;
+	height:72%;
+        border-radius: 8px;
+        border-style: inset;
+        box-shadow: 2px 2px 4px black;
+	background-color:white;
+	float:left;
+       // overflow: scroll;
+      
+
+}
+
+.noire{
+    background-color:black;
+}
+div#sousmenu{
+    //background-color:buttonhighlight;
+    
+}
+    
+#contenu1
+{
+	width:82.5%;
+	//height:940px;
+        border-radius: 8px;
+        box-shadow: 2px 2px 4px black;
+        border-style: inset;
+	float:right;
+        overflow: scroll;
+        background-color: whitesmoke;
+
+}
+div#tete
+{
+    height: 5px;
+    width: 980px;
+}
+
+.tetesection
+{
+    background-color: #95C6AC;
+}
+div#piedpage
+{
+	width:980px;
+	height:25px;
+	background-color:buttonhighlight;
+        border-radius: 6px;
+        margin-top:-10px; 
+        box-shadow: 2px 2px 4px black;
+        
+        
+	clear:both;
+}
+
+a.bouton
+ {
+ width:180px;
+ text-align:center;
+ display:block;
+ border-width: 5px;
+ font-weight:bold;
+ text-decoration:none;
+ background:#B9B9B9;
+ border-top:3px #DBDBDB solid;
+ border-left:3px #DBDBDB solid;
+ border-bottom:3px #868686 solid;
+ border-right:3px #868686 solid;
+ }
+
+a.bouton:hover 
+ {
+ background-color: #FF6600;
+ border-top:4px green solid;
+ border-left:4px green solid;
+ border-bottom:2px green solid;
+ border-right:2px green solid;
+ }
+ #imge {
+  width: 170px;   
+  //border: 1px solid;
+  animation-fill-mode: both;
+ }
+ #para {
+     text-align: center;
+     color: #08c;
+     font-family: fantasy;
+     font-style: oblique;
+     font-size: larger;
+ }
+ 
+ //css pour menu deroulant niveau multiple
+ 
+ .dropdown-submenu{position:relative;}
+.dropdown-submenu>.dropdown-menu{top:0;left:100%;margin-top:-6px;margin-left:-1px;-webkit-border-radius:0 6px 6px 6px;-moz-border-radius:0 6px 6px 6px;border-radius:0 6px 6px 6px;}
+.dropdown-submenu:hover>.dropdown-menu{display:block;}
+.dropdown-submenu>a:after{display:block;content:" ";float:right;width:0;height:0;border-color:transparent;border-style:solid;border-width:5px 0 5px 5px;border-left-color:#cccccc;margin-top:5px;margin-right:-10px;}
+.dropdown-submenu:hover>a:after{border-left-color:#ffffff;}
+.dropdown-submenu.pull-left{float:none;}.dropdown-submenu.pull-left>.dropdown-menu{left:-100%;margin-left:10px;-webkit-border-radius:6px 0 6px 6px;-moz-border-radius:6px 0 6px 6px;border-radius:6px 0 6px 6px;}
+
+ //fin css niveau multiple
+ 
+ th
+ {
+     background-color: black;
+ }
