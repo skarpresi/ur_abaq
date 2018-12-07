@@ -1,28 +1,32 @@
-        <?php       session_start();
-    
-        include('header.php');
-	
-        echo ' 
+<?php       session_start();
+
+include('header.php');
+
+echo '
             <div class="row-fluid ">
 
-                     <h5 class="span2" style="border-style: inset;border-radius: 20px; background-color: #BDB76B ;font-family: Time  New Roman;"> Vous etes ici : </h5> 
-                    
-                    <h5 class="span2" style="border-style: inset;border-radius: 20px; background-color: #BDB76B ;font-family: Time  New Roman;"> Temp&eacuterature </h5>
-                    
-                    <h5 class="span2 offset3" style="margin-top:5px;border-style: inset;border-radius: 20px;font-family: Time  New Roman;font-size: larger; background-color: #BDB76B ;">
-                        
-                        <a href="deconnexion.php"> D&eacuteconnexion </a>
+                <div class="navbar-inner" style="margin-bottom: 10px">
 
-                    </h5>           
-                    <h5 class="span2" style="border-style: inset;border-radius: 20px; background-color: #BDB76B ;font-family: Time  New Roman;"> Utilisateur connect&eacute : '.$_SESSION['utilisateur'].' </h5>
+                    <h4 class="span2" style="border-style: inset;border-radius: 20px; background-color: #f5f5f5 ;font-family: Time  New Roman;"> Vous &ecirctes ici : </h4>
 
+                    <h4 class="span2" style="border-style: inset;border-radius: 20px; background-color: #f5f5f5 ;font-family: Time  New Roman;"> Oxyg&egravene dissous -> Afficher </h4>
+
+                    <h4 class="span4 offset2" style="border-style: inset;border-radius: 20px; background-color: #f5f5f5 ;font-family: Time  New Roman;"> Utilisateur connect&eacute : ' . $_SESSION['prenom'] . ' ' . $_SESSION['nom'] . ' </h4>
+
+                    <h4 class="span2" style="font-family: Time  New Roman;font-size: larger;">
+
+                        <a class="btn btn-primary" href="deconnexion.php"> D&eacuteconnexion </a>
+
+                    </h4>
+
+                </div>
             </div>
-            
-                <div class="row-fluid" >  
-                    <article class="span2" style="border-style: inset;border-radius: 20px; background-color: #A9A9A9 ; "> 
 
-                    
-                        <div class="row-fluid" style="border-style: inset;border-radius: 20px">
+                <div class="row-fluid" >
+                    <article class="span2" style="border-style: inset;border-radius: 20px; background-color: #A9A9A9 ; ">
+
+
+                        <div class="row-fluid" style=" margin-left: 7px;margin-top: 10px;font-family: Time New Roman">
                             <ul class="nav nav-list nav-pills nav-stacked">
                                 <li>
                                     <a class="btn btn-large" href="accueil.php">Accueil</a>
@@ -47,19 +51,19 @@
                             </ul>
                         </div>
 
-                    
+
 
                     </article>
 
 
-                <section class="span10 " id="contenu1">'; 
+                <section class="span10 " id="contenu1">';
                     
                      include("connexpdo.inc.php");
-                    //Connexion à la base de données
+                    //Connexion ï¿½ la base de donnï¿½es
                      
                     if($idcom=connexpdo("ur_abaq","myparam")){
 
-                    //Requête SQL
+                    //Requï¿½te SQL
                     $requete="SELECT * FROM oxygene";
                     $result=$idcom->query($requete);
 
@@ -68,8 +72,8 @@
                         echo "Lecture impossible, code", $idcom->errorCode(),$mes_erreur[2];
                         } 
                     else {
-                            
-                          echo'<table id="tab" class="records_list table table-striped table-hover tableau1 hero-unit" align="center">
+
+                        echo '<table id="tab" class="table table-striped table-hover table-bordered dataTable">
                           <thead>
                           <tr>
                             <th>#</th>

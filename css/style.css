@@ -6,8 +6,8 @@
  text-align: center;
 }
 
-#entete
-{line-height: 175px;
+#entete {
+    line-height: 80%;
 text-align: center;
      color: #08c;
      font-family: Monotype Corsiva;
@@ -42,16 +42,19 @@ text-align: center;
 [class*="row-fluid"] {
 margin: 0px;
  }
-#logo {height:180px;
-    width: 265px}
+
+#logo {
+    height: 50%;
+    width: 50%;
+}
     
 /* Styles utiles à la mise en page */
 header {
-   height: 180px;
+    height: 100%;
 
 }
 section {
-   height: 500px;
+    height: 300%;
    background-color: #FFFFFF;
    border-radius: 5px 5px 5px 5px;
    margin-bottom: auto;
@@ -108,7 +111,8 @@ article{
           
 #logoboot {
 height:250px;
-width: 300px}   
+    width: 300px;
+}
 
 .tabstete {
  background-color:#ad0021; 
@@ -153,7 +157,7 @@ height:500px;
      
 }
 
-tableau2{
+.tableau2 {
     background-color:  #DDDDDD  ;
     width: 500px;
    text-align:center;
@@ -344,7 +348,7 @@ a.bouton:hover
  #imge {
   width: 170px;   
   //border: 1px solid;
-  animation-fill-mode: both;
+ / / animation-fill-mode : both;
  }
  #para {
      text-align: center;
@@ -369,3 +373,4 @@ a.bouton:hover
  {
      background-color: black;
  }
+

@@ -1,7 +1,11 @@
 <?php
 echo '  <div class="row-fluid" style="border-style: inset;border-radius: 20px">    
                 <footer class="span12" style="border-style: inset;border-radius: 20px">
-                    <h5> Tous droits reserv&eacutes &copy UR-ABAQ-2018 </h5>
+                    <p>
+                        <small>
+                            Tous droits reserv&eacutes &copy UR-ABAQ-2018
+                        </small>
+                    </p>
                 </footer>
             </div>
 
