@@ -1,5 +1,7 @@
 <?php
 session_start();
+
+include('fonction.php');
 include("header.php");
 
 // Connexion à la base de données

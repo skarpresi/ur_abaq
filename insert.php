@@ -4,6 +4,8 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
+// Vérification si les paramètres ont été bien transmis
+if (isset($_GET['temperature']) AND isset($_GET['conductivite']) AND isset($_GET['ph']) AND isset($_GET['oxygene'])) {
 // Recuperation des paramètres envoyés par http
 $temp = $_GET['temperature'];
 $conductivite = $_GET['conductivite'];
@@ -107,5 +109,9 @@ if ($idcom = connexpdo('ur_abaq', 'myparam')) {
     echo "<script type=\"text/javascript\">alert('Impossible de se connecter au serveur');
 	    </script>";
 }
-
+} else {
+    // Notification sur l'absence des paramètres
+    echo "<script type=\"text/javascript\">alert(\"Vous n'avez pas renseigné tous les parametres ! \");
+                </script>";
+}
 ?>

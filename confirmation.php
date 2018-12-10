@@ -1,5 +1,6 @@
 <?php
 session_start();
+include('fonction.php');
 include('header.php');
 include("connexpdo.inc.php");
 

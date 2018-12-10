@@ -23,12 +23,13 @@
 	 function deconnexion() {
          //Suppression des variables de sessions
          $_SESSION = array();
-		session_destroy();
+         session_destroy();
 
          // Suppression des cookies de connexion automatique
          // setcookie('login', '');
          // setcookie('password', '');
          echo "<script type=\"text/javascript\">alert('Vous etes maintenant deconnectes');
-	    window.location='index.html';</script>";
+	     window.location='index.html';</script>";
+         die();
 	}                                                               
 ?>									   

@@ -59,6 +59,8 @@
                 $_SESSION['nom'] = $row['Nom'];
                 $_SESSION['prenom'] = $row['Prenom'];
                 $_SESSION['groupe'] = $row2['Nom'];
+                $_SESSION['last_access'] = time();
+                $_SESSION['ipaddr'] = $_SERVER['REMOTE_ADDR'];
 
                 $result->closeCursor();
                 $result2->closeCursor();
